@@ -14,7 +14,7 @@ void main() async {
   } catch (e) {
     print('Error initializing Firebase: $e');
     // Continue with the app, but Firebase functionality won't work
-  }
+  }      
   runApp(const MyApp());
 }
 
